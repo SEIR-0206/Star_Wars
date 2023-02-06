@@ -1,0 +1,119 @@
+ 165  git clone https://github.com/SEIR-0206/Star_Wars.git
+  166  echo Star_Wars
+  167  ls -la
+  168  cd Star_Wars
+  169  code .
+  170  cd star_wars
+  171  ls -a
+  172  ls
+  173  cd empire
+  174  ls
+  175  ~
+  176  ls
+  177  cd Star_Wars
+  178  cd star_wars
+  179  mkdir rebellion
+  180  cd empire
+  181  touch "...heavy breathing..." >> darth_vader.txt
+  182  echo "...heavy breathing..." >> darth_vader.txt
+  183  cd Star_Wars
+  184  cd empire
+  185  cd star_wars
+  186  cd empire
+  187  ls
+  188  cwd
+  189  pwd
+  190  touch emperor_palpatine.txt
+  191  mkdir death_star
+  192  %mv ~/Star_Wars/star_wars/empire/darth_vader.txt ~/Star_Wars/star_wars/empire/death_star
+  193  mv ~/Star_Wars/star_wars/empire/darth_vader.txt ~/Star_Wars/star_wars/empire/death_star
+  194  cd ..
+  195  cd death_star
+  196  cd ..
+  197  cd star_wars
+  198  cd empire
+  199  cd death_star
+  200  ls
+  201  cd ..
+  202  mkdir rebellion
+  203  cd rebellion
+  204  touch princess_leia.txt >> "Help me, Obi-Wan…You’re my only hope."
+  205  ls
+  206  touch princess_leia.txt > "Help me, Obi-Wan…You’re my only hope."\n
+  207  ls
+  208  echo "Help me" > pricess.leaia2.txt
+  209  ls
+  210  echo "Help me, Obi-Wan...You're my only home." > princess_leia.txt
+  211  ls
+  212  touch obi_wan.txt
+  213  ls
+  214  touch luke_skywalker.txt
+  215  mkdir millenium falcon
+  216  cd ..
+  217  cd millenium falcon
+  218  ls
+  219  cd rebellion
+  220  cd millenium falcon
+  221  ls
+  222  mkdir "millenium falcon"
+  223  ls
+  224  cd millenium falcon
+  225  cd "millenium falcon"
+  226  touch han_solo.txt chewbacca.txt
+  227  ls
+  228  ls -a
+  229  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/rebellion/millenium falcon
+  230  cwd
+  231  pwd
+  232  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/rebellion/millenium_falcon 
+  233  ls
+  234  mv ~/Star_Wars/star_wars/rebellion/obi_wan.txt ~/Star_Wars/star_wars/rebellion/millenium_falcon
+  235  mv ~/Star_Wars/star_wars/rebellion/princess_leia.txt ~/Star_Wars/star_wars/rebellion/millenium_falcon
+  236  ls
+  237  mv ~/Star_Wars/star_wars/rebellion/millenium_falcon ~/Star_Wars/star_wars/empire/death_star
+  238  cd ..
+  239  ls
+  240  cd death_star
+  241  ls
+  242  cd millenium_falcon
+  243  ls
+  244  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon* ~/Star_Wars/star_wars/empire/death_star\n\n
+  245  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon * ~/Star_Wars/star_wars/empire/death_star
+  246  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~/Star_Wars/star_wars/empire/death_star
+  247  ls
+  248  rm ~/Star_Wars/star_wars/empire/death_star/obi_wan.txt\n
+  249  ls
+  250  cd ..
+  251  ls
+  252  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falc\n\n
+  253  mv ~/Star_Wars/star_wars/empire/death_star/princess_leia.txt ~/Star_Wars/star_wars/empire/death_star/millenium_falcon\n\n
+  254  mv ~/Star_Wars/star_wars/empire/death_star/chewbacca.txt ~/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  255  mv ~/Star_Wars/star_wars/empire/death_star/luke_skywalker.txt ~/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  256  cd ..
+  257  cd .
+  258  cd ..
+  259  npm i -g nodemon
+  260  npm i nodemon
+  261  cd Star_Wars
+  262  cd star_wars
+  263  cd empire
+  264  ls
+  265  cd death_star
+  266  ls
+  267  mv ~/Star_Wars/star_wars/empire/death_star/han_solo.txt ~/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  268  ls
+  269  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon ~/Star_Wars/star_wars/rebellion
+  270  ls
+  271  mv ~/Star_Wars/star_wars/empire/death_star/darth_vader ~/Star_Wars/star_wars/rebellion
+  272  mv ~/Star_Wars/star_wars/empire/death_star/darth_vader.txt ~/Star_Wars/star_wars/rebellion 
+  273  cd ..
+  274  ls
+  275  mv ~/Star_Wars/star_wars/rebellion/darth_vader.txt ~/Star_Wars/star_wars/empire
+  276  ls
+  277  rm ~/Star_Wars/star_wars/empire/death_star
+  278  ls
+  279  rmdir ~/Star_Wars/star_wars/empire/death_star
+  280  ls
+  281  tree ~/Star_Wars
+  282  brew install tree
+  283  tree ~/Star_Wars
