@@ -1,0 +1,10 @@
+   99  git clone https://github.com/joshuapent/Star_Wars.git
+  100  cd star_wars
+  101  code .
+  102  git add .
+  103  git commit -m "act 1 done"
+  104  code .
+  105  git add .
+  106  git commit -m "act 2 done"
+  107  git add .
+  108  git commit -m "The galaxy is saved"
