@@ -1,0 +1,250 @@
+17  cd documents
+   18  ls
+   19  ls -a
+   20  cd ..
+   21  pwd
+   22  mkdir myfolder
+   23  ls
+   24  cd myfolder
+   25  touch index.html style.css
+   26  ls
+   27  rm style.css
+   28  ls
+   29  cd ..
+   30  pwd
+   31  rm -r myfolder
+   32  cd downloads
+   33  cd world
+   34  ls
+   35  ls -a world
+   36  ls - Africa
+   37  ls -a Australia
+   38  ls -a North_America
+   39  ls -a South_America
+   40  ls -a Europe
+   41  cd ..
+   42  cd ..
+   43  pwd
+   44  git --version
+   45  pwd
+   46  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   47  git --version
+   48  cd desktop
+   49  mkdir GA-Blog
+   50  cd GA-Blog
+   51  $ git init
+   52  git init
+   53  ls -a
+   54  git status
+   55  touch post.txt
+   56  git status
+   57  git add post.txt
+   58  git status
+   59  git log
+   60  git commit -m "first commit"
+   61  git log
+   62  mkdir git-practice
+   63  cd git-practice
+   64  pwd
+   65  git init
+   66  git status
+   67  ls -a
+   68  mkdir README.txt
+   69  git status
+   70  git add README.txt
+   71  git status
+   72  git commit -m "first commit, added README"
+   73  git log
+   74  touch README.txt
+   75  add README.txt
+   76  git status
+   77  ls -a
+   78  cd ..
+   79  cd ..
+   80  cd ..
+   81  cd ..
+   82  cd ..
+   83  pwd
+   84  cd ..
+   85  pwd
+   86  cd GA-Blog
+   87  cd users
+   88  cd Users
+   89  cd ..
+   90  cd Users
+   91  pwd
+   92  ls
+   93  cd squawk
+   94  ls
+   95  cd Desktop
+   96  ls
+   97  cd GA-Blog
+   98  mkdir Node
+   99  ls
+  100  cd Node
+  101  git clone https://github.com/nodejs/node.git
+  102  ls
+  103  echo $SHELL
+  104  ```bash\nsh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n```
+  105  code .
+  106  code .
+  107  cat << EOF >> ~/.bash_profile\n# Add Visual Studio Code (code)\nexport PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\nEOF\n
+  108  code .
+  109  cat << EOF >> ~/.bash_profile\n# Add Visual Studio Code (code)\nexport PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\nEOF\n
+  110  code .
+  111  cat << EOF >> ~/.zprofile\n# Add Visual Studio Code (code)\nexport PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"\nEOF\n
+  112  code .
+  113  code .
+  114  cd .
+  115  code .
+  116  brew doctor
+  117  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  118  cd unit1
+  119  ls
+  120  cd seir-0206
+  121  cd unit1
+  122  tree
+  123  cd ..
+  124  tree
+  125  mv unit1/app.js ./
+  126  ls
+  127  tree
+  128  hello
+  129  ls
+  130  cd drawers
+  131  tree
+  132  mv ~/drawers/shorts/plaid.pjs ~/drawers/pjs/solid.pjs
+  133  tree
+  134  cd ~/drawers/socks && rm dress.socks
+  135  tree
+  136  cd ~
+  137  ls
+  138  cd sei
+  139  ls
+  140  tree
+  141  cd ~
+  142  pwd
+  143  git clone https://github.com/guantanamobosch/github_101.git
+  144  ls
+  145  cd github_101
+  146  code .
+  147  cd ~
+  148  ls
+  149  cd seir-0206
+  150  l
+  151  ls
+  152  cd unit1
+  153  ls
+  154  cd github
+  155  code .
+  156  git init
+  157  ls -a
+  158  touch notes.txt
+  159  ls
+  160  git status
+  161  git add .
+  162  git status
+  163  git commit -m "These are my answers for answers.txt"
+  164  git status
+  165  git push origin master
+  166  cd ~
+  167  git clone https://github.com/guantanamobosch/Star_Wars_Luke_T.git
+  168  ls
+  169  cd Star_Wars_Luke_T
+  170  code .
+  171  ls
+  172  cd act1.sh
+  173  mkdir star_wars
+  174  cd star_wars
+  175  ls
+  176  mk dir rebellion
+  177  mkdir rebellion
+  178  ls
+  179* mv seir-0206/index.html unit1
+  180* mv index.html unit1
+  181* tree
+  182* mv app.js notes.txt style.css unit1
+  183* tree
+  184* cp unit1/app.js ./
+  185* rm app.js
+  186* cp unit1/app.js ./
+  187* rm unit1/app.js
+  188* echo "//I love the command line? >> app.js\n\ncd ..\ncd ~\n"
+  189* echo "//I love the command line" >> app.js
+  190* mv app.js somethingelse.js
+  191* mv somethingelse.js app.js
+  192* cd unit1
+  193* mkdir github
+  194  cd empire
+  195  touch emperor_palpatine.txt
+  196  ls
+  197  git add .
+  198  git status
+  199  git commit -m "Created emperor_palpatine.txt in ~/star_wars/empire/"
+  200  git status
+  201  pwd
+  202  mkdir death_star
+  203  ls
+  204  git add .
+  205  git status
+  206  git commit -m "Added death_star directory to the empire."
+  207  git status
+  208  mv darth_vader.txt death_star
+  209  ls
+  210  git add .
+  211  git commit -m "Moved Darth Vader into the Death Star."
+  212  git status
+  213  cd ..
+  214  tree
+  215  echo "Help me, Obi-Wan... You're my only hope." >  ~/Star_Wars_Luke_T/star_wars/rebellion/princess_leia.txt
+  216  git add .
+  217  git commit -m "Stored Princess Leia's SOS message in R2D2"
+  218  touch ~/Star_Wars_Luke_T/star_wars/rebellion/obi_wan.txt
+  219  git add .
+  220  git commit -m "Created Obi-Wan txt file"
+  221  touch ~/Star_Wars_Luke_T/star_wars/rebellion/luke_skywalker.txt
+  222  git add .
+  223  git commit -m "Created Luke Skywalker txt file in rebellion"
+  224  mkdir ~/Star_Wars_Luke_T/star_wars/rebellion/millenium_falcon
+  225  git add .
+  226  git commit -m "Made millenium falcon directory"
+  227  touch ~/Star_Wars_Luke_T/star_wars/rebellion/millenium_falcon/han_solo.txt ~/Star_Wars_Luke_T/star_wars/rebellion/millenium_falcon/chewbacca.txt
+  228  git add .
+  229  git commit -m "Made Han Solo and Chewbacca txt files in millenium falcon"
+  230  cd rebellion
+  231  mv *.txt ~/Star_Wars_Luke_T/star_wars/rebellion/millenium_falcon
+  232  git add .
+  233  git commit -m "Moved Luke, Leia, and Obi-Wan into the Millenium Falcon"
+  234  mv ~/Star_Wars_Luke_T/star_wars/rebellion/millenium_falcon ~/Star_Wars_Luke_T/star_wars/empire/death_star
+  235  git add .
+  236  git commit -m "Moved millenium falcon into death star"
+  237  mv ~/Star_Wars_Luke_T/star_wars/empire/death_star/millenium_falcon/* ~/Star_Wars_Luke_T/star_wars/empire/death_star
+  238  git add .
+  239  git commit -m "Moved the crew into the death star"
+  240  cd ~
+  241  ls
+  242  cd Star_Wars_Luke_T
+  243  git add .
+  244  git commit -m "Moved the crew into the death star"
+  245  rm ~/Star_Wars_Luke_T/star_wars/empire/death_star/obi_wan.txt
+  246  git add .
+  247  git commit -m "Obi-Wan died :("
+  248  mv ~/Star_Wars_Luke_T/star_wars/empire/death_star/chewbacca.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/han_solo.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/luke_skywalker.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/princess_leia.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/millenium_falcon
+  249  git add .
+  250  git commit -m "The crew made it back into the falcon"
+  251  mv ~/Star_Wars_Luke_T/star_wars/empire/death_star/millenium_falcon ~/Star_Wars_Luke_T/star_wars/rebellion
+  252  git add .
+  253  git commit -m "Millenium falcon back into the rebellion"
+  254  mv ~/Star_Wars_Luke_T/star_wars/empire/death_star/darth_vader.txt ..
+  255  cd ~
+  256  ls
+  257  mv 
+  258  mv ~/darth_vader.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star
+  259  cd Star_Wars_Luke_T
+  260  mv ~/Star_Wars_Luke_T/star_wars/empire/death_star/darth_vader.txt ~/Star_Wars_Luke_T/star_wars/empire
+  261  git add .
+  262  git commit -m "Moved Darth Vader into the empire directory"
+  263  rm ~/Star_Wars_Luke_T/star_wars/empire/death_star
+  264  rm -rf ~/Star_Wars_Luke_T/star_wars/empire/death_star
+  265  git add .
+  266  git commit -m "Destroyed the death star"
