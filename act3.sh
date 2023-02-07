@@ -5,7 +5,7 @@
 # rm ~/Star_Wars_Luke_T/star_wars/empire/death_star/obi_wan.txt
 # 3.  Our heroes have disabled the tractor beam! Move the whole crew back into the millenium_falcon!
 # Remember: darth_vader remains in the death_star and emperor_palpatine is still in the empire.
-
+# mv ~/Star_Wars_Luke_T/star_wars/empire/death_star/chewbacca.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/han_solo.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/luke_skywalker.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/princess_leia.txt ~/Star_Wars_Luke_T/star_wars/empire/death_star/millenium_falcon
 # 4. Move the millenium_falcon back into the rebellion directory.
 
 # 5. darth_vader leaves the death_star to pursue luke_skywalker! Move him from the death_star into the empire directory!
