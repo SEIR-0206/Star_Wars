@@ -1,0 +1,114 @@
+
+In the begining I was inside the respective directories so didn't write the full path of the new directories and files
+but in my answers I typed the full paths as if I was doing everything from the origin repo. 
+
+cd Star_Wars
+mkdir star_wars
+  375  ls
+  376  cd star_wars
+  377  ls
+  378  mkdir rebelion
+  379  cd ..
+  380  git add
+  381  git add .
+  382  git commit -m "partial act 1"
+  383  git status
+  384  git push origin master
+  385  git commit -m "partial act 1"
+  386  git status
+  387  git add .
+  388  git status
+  389  ls
+  390  cd star_wars
+  391  ls
+  392  cd empire
+  393  touch emperor_palpatine.txt
+  394  rm emperor_palpatine.txt
+  395  ls
+  396  cd
+  397  cd ..
+  398  cd Star_Wars
+  399  ls
+  400  cd sei
+  401  ls
+  402  cd ..
+  403  git status
+  404  ls
+  405  cd sei
+  406  ls
+  407  cd deliverables
+  408  ls
+  409  cd Star_Wars
+  410  code .
+  411  git status
+  412  ls
+  413  cd star_wars
+  414  ls
+  415  cd empire
+  416  touch emperor_palpatine.txt\n
+  417  git add
+  418  git status
+  419  git commit -m "progress for act1"
+  420  git status
+  421  git add .
+  422  git status
+  423  git commit -m "progress for act1"
+  424  git status
+  425  git push origin master
+  426* ls
+  427* cd sei
+  428* cd deliverables
+  429* cs Star_Wars
+  430* ls
+  431* cd Star_Wars
+  432* code .
+  433  mkdir star_wars/empire/death_star
+  434  cd ..
+  435  mkdir star_wars/empire/death_star
+  436  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  437  git add .
+  438  git status
+  439  git commit -m "act1 done"
+  440  git push origin master
+  441  echo "Help me, Obi-Wan…You’re my only hope." > star_wars/rebellion
+  442  echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion
+  443  echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess_leia.txt
+  444  touch star_wars/rebellion/obi_wan.txt
+  445  touch star_wars/rebellion/luke_skywalker.txt
+  446  mkdir star_wars/rebellion/millenium_falcon
+  447  git add .
+  448  git commit -m "partial act2"
+  449  git push origin master
+  450  git status
+  451  git add .
+  452  git commit -m "partial act2"
+  453  git push origin master
+  454* git add .
+  455* git commit -m "finished"
+  456* git status
+  457* git push origin master
+  458  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/han_solo.txt 
+  459  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  460  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/obi_wan.txt star_wars/rebellion/princess_leia millenium_falcon
+  461  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/obi_wan.txt star_wars/rebellion/princess_leia star_wars/rebellion/millenium_falcon
+  462  mv star_wars/rebellion/princess_leia.txt 
+
+on the error above I forgot to add the '.txt' to princess_leia
+    then I made it worse by changing the name of the princess_leia file to millenium_falcon
+    so I manually fixed the error for the sake of time. but I typed the correct command into the prompt.
+
+  463  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  464  git add .
+  465  git commit -m"act2 finished"
+  466  git push origin master
+  467  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star/
+  468  rm -R star_wars/empires/death_star/obi_wan.txt
+  469  rm -R star_wars/empire/death_star/obi_wan.txt
+  470  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon
+  471  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  472  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+  473  rm -R star_wars/empire/death_star
+  474  git add .
+  475  git status
+  476  git commit -m"final project"
+  477  git push origin master
