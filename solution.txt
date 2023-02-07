@@ -1,0 +1,113 @@
+1054  cd Star_Wars
+ 1055  code .
+ 1056  ls
+ 1057  cd star_wars
+ 1058  mkdir rebellion empire
+ 1059  cd empire
+ 1060  touch emperor_palpatine.txt
+ 1061  ls
+ 1062  mkdir death_star
+ 1063  mv darth_vader.txt death_star
+ 1064  git status
+ 1065  git add .
+ 1066  git status
+ 1067  git commit -m "act 1 complete" 
+ 1068  git push
+ 1069  git status
+ 1070  -
+ 1071  touch -
+ 1072  rm -
+ 1073  -
+ 1074  echo "Help me, Obi-Wan... Youre my only hope" >> touch rebellion/princess_leila.txt
+ 1075  rm touch
+ 1076  touch rebellion/princess_leila.txt
+ 1077  echo "Help me, Obi-Wan... Youre my only hope" rebellion/princess_leila.txt
+ 1078  echo "Help me, Obi-Wan... Youre my only hope" >> rebellion/princess_leila.txt
+ 1079  touch rebellion/obi_wan.txt
+ 1080  touch rebellion/luke_skywalker.txt
+ 1081  mkdir rebellion/millenium_falcon
+ 1082  cd rebellion
+ 1083  cd millenium_falcon
+ 1084  touch han_solo.txt chewbacca.txt
+ 1085  -
+ 1086  cd
+ 1087  ls
+ 1088  cd sei
+ 1089  cd repos
+ 1090  ls
+ 1091  cd Star_Wars
+ 1092  cd star_wars
+ 1093  ls
+ 1094  cd rebellion
+ 1095  mv luke_skywalker.txt millenium_falcon
+ 1096  mv obi_wan.txt millenium_falcon/
+ 1097  mv princess_leila.txt millenium_falcon
+ 1098  -
+ 1099  --
+ 1100  -
+ 1101  ls
+ 1102  cd rebellion
+ 1103  mv millenium_falcon/ death_star
+ 1104  mv death_star/ millenium_falcon
+ 1105  ls
+ 1106  cd millenium_falcon
+ 1107  ls
+ 1108  -
+ 1109  mv star_wars/rebellion/millenium_falcon/ star_wars/empire/death_star/
+ 1110  pwd
+ 1111  ..
+ 1112  mv ~rebellion/millenium_falcon ~empire/death_star
+ 1113  mv ~millenium_falcon/ ~empire/death_star
+ 1114  mv ~star_wars/rebellion/millenium_falcon ~star_wars/empire/death_star
+ 1115  ls
+ 1116  ..
+ 1117  mv ~star_wars/rebellion/millenium_falcon ~star_wars/empire/death_star
+ 1118  ls
+ 1119  cd star_wars
+ 1120  ls
+ 1121  mv ~star_wars/rebellion/millenium_falcon ~star_wars/empire/death_star
+ 1122  cd rebellion
+ 1123  mv ~star_wars/rebellion/millenium_falcon ~star_wars/empire/death_star
+ 1124  mv ~millenium_falcon/ ~empire/death_star
+ 1125  ls
+ 1126  mv millenium_falcon/ death_star
+ 1127  mv death_star millenium_falcon
+ 1128  mv millenium_falcon/ ~/star_wars/
+ 1129  ls
+ 1130  ..
+ 1131  ls
+ 1132  cd rebellion
+ 1133  mkdir millenium_falcon
+ 1134  touch luke_skywalker.txt chewbacca.txt obi_wan.txt han_solo.txt
+ 1135  mv ~/Star_Wars/star_wars/rebellion/millenium_falcon ~/Star_Wars/star_wars/empire/death_star
+ 1136  mv millenium_falcon/death_star
+ 1137  mv millenium_falcon death_star
+ 1138  mv death_star millenium_falcon
+ 1139  ..
+ 1140  mv rebellion/millenium_falcon empire/death_star
+ 1141  git status
+ 1142  git add .
+ 1143  git commit -m "act 2 complete"
+ 1144  git push
+ 1145  ls
+ 1146  DirectoryService
+ 1147  ls
+ 1148  cd empire
+ 1149  ls
+ 1150  cd death_star
+ 1151  cd millenium_falcon
+ 1152  ls
+ 1153  ..
+ 1154  mv death_star/millenium_falcon/chewbacca.txt death_star
+ 1155  mv death_star/millenium_falcon/obi_wan.txt death_star
+ 1156  mv death_star/millenium_falcon/luke_skywalker.txt death_star
+ 1157  mv death_star/millenium_falcon/han_solo.txt death_star
+ 1158  rm death_star/obi_wan.txt
+ 1159  mv death_star/chewbacca.txt death_star/millenium_falcon
+ 1160  mv death_star/luke_skywalker.txt death_star/millenium_falcon
+ 1161  mv death_star/han_solo.txt death_star/millenium_falcon
+ 1162  ..
+ 1163  mv empire/death_star/millenium_falcon  rebellion
+ 1164  mv empire/death_star/darth_vader.txt empire
+ 1165  rm empire/death_star
+ 1166  rm -rf empire/death_star
