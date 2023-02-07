@@ -14,4 +14,5 @@ mv luke_skywalker.txt millenium_falcon
 mv obi_wan.txt millenium_falcon
 mv princess_leia.txt millenium_falcon
 # 7. Move the millenium_falcon into the death_star.
+cd ~
 mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
