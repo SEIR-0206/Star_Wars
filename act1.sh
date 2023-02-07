@@ -13,3 +13,8 @@ echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
 # 6. Inside the empire directory, create a directory called death_star
 
 # 7. Move darth_vader.txt into the death_star
+
+#git add 
+#
+#git push
+#git remote -v 
