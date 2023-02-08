@@ -1,0 +1,595 @@
+➜  Star_Wars git:(master) ✗ cd star_wars
+➜  star_wars git:(master) ✗ touch star_wars/empire/emperor_palpatine.txt
+touch: cannot touch 'star_wars/empire/emperor_palpatine.txt': No such file or directory
+➜  star_wars git:(master) ✗ ls
+empire  rebellion
+➜  star_wars git:(master) ✗ touch emperor_palpatine
+➜  star_wars git:(master) ✗ touch emperor_palpatine.txt
+➜  star_wars git:(master) ✗ ..cd
+zsh: command not found: ..cd
+➜  star_wars git:(master) ✗ .cd
+zsh: command not found: .cd
+➜  star_wars git:(master) ✗ ..
+➜  Star_Wars git:(master) ✗ cd empire
+cd: no such file or directory: empire
+➜  Star_Wars git:(master) ✗ cd empire
+cd: no such file or directory: empire
+➜  Star_Wars git:(master) ✗ cd star_wars
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ touch emperor_palpatine
+➜  empire git:(master) ✗ touch death_star
+➜  empire git:(master) ✗ touch emperor_palpatine.txt
+mv: cannot stat '/home/piquant95/Star_Wars/star_wars/empire/darth_vader.txt': No such file or directory            ➜  empire git:(master) ✗ mv ~/darth_vader.txt ~/death_star/                  mv: cannot stat '/home/piquant95/darth_vader.txt': No such file or directory
+➜  empire git:(master) ✗ ls
+darth_vader.txt  death_star  emperor_palpatine.txt
+➜  empire git:(master) ✗ mv ~/STAR_WARS/star_wars/empire/darth_vader.txt ~/STAR_WARS/star_wars/empire/death_star/            mv: cannot stat '/home/piquant95/STAR_WARS/star_wars/empire/darth_vader.txt': No such file or directory                        ➜  empire git:(master) ✗ ls
+darth_vader.txt  death_star  emperor_palpatine.txt
+➜  empire git:(master) ✗ mv darth_vader.txt death_star 
+➜  empire git:(master) ✗ cd death-star
+cd: no such file or directory: death-star
+➜  empire git:(master) ✗ cd death_star
+cd: not a directory: death_star
+➜  empire git:(master) ✗ ls
+death_star  emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star
+cd: not a directory: death_star
+➜  empire git:(master) ✗ cd death_star
+cd: not a directory: death_star
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ touch darth_vader.txt 
+➜  empire git:(master) ✗ echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+zsh: no such file or directory: star_wars/empire/darth_vader.txt
+➜  empire git:(master) ✗ echo "...heavy breathing..." >> darth_vader
+➜  empire git:(master) ✗ cat darth_vader
+...heavy breathing...
+➜  empire git:(master) ✗ ls
+darth_vader.txt  death_star  emperor_palpatine.txt
+➜  empire git:(master) ✗ cat darth_vader.txt
+...heavy breathing...
+➜  empire git:(master) ✗ mv darth_vader death_star
+mv: cannot stat 'darth_vader': No such file or directory
+➜  empire git:(master) ✗ mv darth_vader.txt death_star
+➜  empire git:(master) ✗ ..
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope."
+➜  rebellion git:(master) ✗ echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+➜  rebellion git:(master) ✗ cat princess_leia.txt
+Help me, Obi-Wan…You’re my only hope.
+➜  rebellion git:(master) ✗ touch obi_wan.txt
+➜  rebellion git:(master) ✗ touch luke_skywalker.txt
+➜  rebellion git:(master) ✗ mkdir millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ touch han_solo.txt
+➜  millenium_falcon git:(master) ✗ touch chewbacca.txt
+➜  millenium_falcon git:(master) ✗ ..
+➜  rebellion git:(master) ✗ mv luke_skywalker millenium_falcon
+mv: cannot stat 'luke_skywalker': No such file or directory
+➜  rebellion git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv obi_wan.txt millenium_falcon
+➜  rebellion git:(master) ✗ mv princess_leia.txt millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ ..
+➜  rebellion git:(master) ✗ mv millenium_falcon death_star
+➜  rebellion git:(master) ✗ mv death_star millenium_falcon
+➜  rebellion git:(master) ✗ mv ~/rebellion/millenium_falcon death_star
+mv: cannot stat '/home/piquant95/rebellion/millenium_falcon': No such file or directory
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ mv ~/star_wars\rebellion\millenium_falcon ~/star_wars\empire\death_star/
+mv: cannot stat '/home/piquant95/star_warsrebellionmillenium_falcon': No such file or directory➜  rebellion git:(master) ✗ mv ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\rebellion ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star
+mv: cannot stat '/home/piquant95/C:UserspiquaseideliverablesStar_Warsstar_warsrebellion': No such file or directory
+➜  rebellion git:(master) ✗ mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+mv: cannot move 'millenium_falcon' to '/home/piquant95/sei/deliverables/Star_Wars/star_wars/empire/death_star': No such file or directory
+➜  rebellion git:(master) ✗ mv millenium_falcon ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ..
+➜  star_wars git:(master) ✗ ls    
+empire  rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star  emperor_palpatine.txt
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt
+➜  death_star git:(master) ✗ ..
+➜  empire git:(master) ✗ lsa
+total 0
+drwxrwxrwx 1 piquant95 piquant95 4.0K Feb  7 19:20 .
+drwxrwxrwx 1 piquant95 piquant95 4.0K Feb  7 18:18 ..
+drwxrwxrwx 1 piquant95 piquant95 4.0K Feb  7 19:20 death_star
+-rwxrwxrwx 1 piquant95 piquant95    0 Feb  7 18:21 emperor_palpatine.txt
+➜  empire git:(master) ✗ ls
+death_star  emperor_palpatine.txt
+➜  empire git:(master) ✗ ..
+➜  star_wars git:(master) ✗ ls
+empire  rebellion
+➜  star_wars git:(master) ✗ ..
+➜  Star_Wars git:(master) ✗ ls
+README.md  act1.sh  act2.sh  act3.sh  notes.txt  solution.txt  star_wars
+➜  Star_Wars git:(master) ✗ ..
+➜  deliverables ls
+Star_Wars
+➜  deliverables ..
+➜  sei ls
+Token.txt  code-alongs  deliverables  fundamentals  labs  projects  repos  sandbox
+➜  sei ..
+➜  piqua ls
+ AppData             Desktop     Links             NTUSER.DAT                                                         NetHood     Recent        'Start Menu'   ntuser.dat.LOG1
+'Application Data'   Documents  'Local Settings'   NTUSER.DAT{d183c9ff-8293-11ed-8831-fe12067f3411}.TM.blf                                        OneDrive   'Saved Games'   Templates     ntuser.dat.LOG2
+ Contacts            Downloads   Music             NTUSER.DAT{d183c9ff-8293-11ed-8831-fe12067f3411}.TMContainer00000000000000000001.regtrans-ms   Pictures    Searches       Videos        ntuser.ini
+ Cookies             Favorites  'My Documents'     NTUSER.DAT{d183c9ff-8293-11ed-8831-fe12067f3411}.TMContainer00000000000000000002.regtrans-ms   PrintHood   SendTo         drawers       sei
+➜  piqua ..
+➜  Users ..
+➜  c Users
+➜  Users ls
+'All Users'   Default  'Default User'   Public   britt   desktop.ini   piqua
+➜  Users piqua
+➜  piqua ls
+ AppData             Desktop     Links             NTUSER.DAT                                                         NetHood     Recent        'Start Menu'   ntuser.dat.LOG1
+'Application Data'   Documents  'Local Settings'   NTUSER.DAT{d183c9ff-8293-11ed-8831-fe12067f3411}.TM.blf                                        OneDrive   'Saved Games'   Templates     ntuser.dat.LOG2
+ Contacts            Downloads   Music             NTUSER.DAT{d183c9ff-8293-11ed-8831-fe12067f3411}.TMContainer00000000000000000001.regtrans-ms   Pictures    Searches       Videos        ntuser.ini
+ Cookies             Favorites  'My Documents'     NTUSER.DAT{d183c9ff-8293-11ed-8831-fe12067f3411}.TMContainer00000000000000000002.regtrans-ms   PrintHood   SendTo         drawers       sei
+➜  piqua empire
+zsh: command not found: empire
+➜  piqua star_wars\empire\death_star
+zsh: command not found: star_warsempiredeath_star
+zsh: command not found: seideliverablesStar_Warsstar_warsempire
+➜  piqua cd sei
+zsh: command not found: seideliverablesStar_Warsstar_warsempire
+➜  piqua cd sei
+➜  sei cd deliverables
+➜  deliverables cd Star_Wars
+➜  Star_Wars git:(master) ✗ cd star_wars
+➜  star_wars git:(master) ✗ empire
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls -l
+total 0-rwxrwxrwx 1 piquant95 piquant95 22 Feb  7 19:17 darth_vader.txt
+➜  death_star git:(master) ✗ ls -l /C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star
+ls: cannot access '/C:UserspiquaseideliverablesStar_Warsstar_warsempiredeath_star': No such file or directory
+➜  death_star git:(master) ✗ history | tail -n 250
+    1  echo $SHELL
+    2  $SHELL --version
+    3  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    4  sudo add-apt-repository ppa:git-core/ppa
+    5  sudo apt-get update
+    6  sudo apt-get install git
+    7  git config --global user.name Piquant95
+    8  git config --global user.name "Piquant95"
+    9  git config --global user.email "piquant95@yahoo.com"
+   10  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   11  git config --global user.name
+   12  git config global user.email
+   13  git config --global user.email piquant95@yahoo.com
+   14  git config --global user.email "piquant95@yahoo.com"
+   15  git config global user.email
+   16  git config --global user.email "piquant95@yahoo.com"
+   17  git config global user.email
+   18  $ git config --global user.email piquant95@yahoo.com
+   19  $ git config --global user.email "piquant95@yahoo.com"
+   20  git config --global user.name
+   21  git config --global user.name "piquant95"
+   22  git config --global user.email "piquant95@yahoo.com"
+   23  git config --list
+   24  git config global user.email
+   25  git config --global user.email
+   26  git config --global init.defaultBranch main
+   27  git config --global core.editor "code --wait"
+   28  git config --global pull.rebase false
+   29  touch ~/.gitignore_global
+   30  git config --global core.excludesfile ~/.gitignore_global
+   31  code ~/.gitignore_global
+   32  git config --global user.name
+   33  git config global user.email
+   34  git config --global user.email
+   35  git config --global init.defaultBranch main
+   36  git config --global core.editor "code --wait"
+   37  git config --global pull.rebase false
+   38  touch ~/.gitignore_global
+   39  git config --global core.excludesfile ~/.gitignore_global
+   40  code ~/.gitignore_global
+   41  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0     
+   42  gh auth login
+   43  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0     
+   44  gh auth login
+   45  sudo apt install gh
+   46  gh auth login
+   47  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash   
+   48  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   49  nvm --version
+   50  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash   
+   51  nvm --version
+   52  npm --version
+   53  nvm install node
+   54  npm install node
+   55  nvm --version
+   56  code ~/.zshrc
+   57  nvm --version
+   58  npm --version
+   59  node --version
+   60  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   61  node -v
+   62  brew install node
+   63  nvm install node
+   64  npm install node
+   65  nvm --version
+   66  npm --version
+   67  npm i -g nodemon
+   68  cd star_wars
+   69  touch star_wars/empire/emperor_palpatine.txt
+   70  ls
+   71  touch emperor_palpatine
+   72  touch emperor_palpatine.txt
+   73  ..cd
+   74  .cd
+   75  ..
+   76  cd empire
+   77  cd star_wars
+   78  cd empire
+   79  touch emperor_palpatine
+   80  touch death_star
+   81  touch emperor_palpatine.txt
+   82  mv ~/Star_Wars/star_wars/empire/darth_vader.txt ~/Star_Wars/star_wars/empire/death_star/
+   83  mv ~/darth_vader.txt ~/death_star/
+   84  ls
+   85  mv ~/STAR_WARS/star_wars/empire/darth_vader.txt ~/STAR_WARS/star_wars/empire/death_star/
+   86  ls
+   87  mv darth_vader.txt death_star
+   88  cd death-star
+   89  cd death_star
+   90  ls
+   91  cd death_star
+   92  mkdir death_star
+   93  touch darth_vader.txt
+   94  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+   95  echo "...heavy breathing..." >> darth_vader
+   96  cat darth_vader
+   97  mv darth_vader.txt
+   98  mv darth_vader darth_vader.txt
+   99  ls
+  100  cat darth_vader.txt
+  101  mv darth_vader death_star
+  102  mv darth_vader.txt death_star
+  103  ..
+  104  cd rebellion
+  105  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope."
+  106  touch princess_leia.txt
+  107  echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  108  cat princess_leia.txt
+  109  touch obi_wan.txt
+  110  touch luke_skywalker.txt
+  111  mkdir millenium_falcon
+  112  cd millenium_falcon
+  113  touch han_solo.txt
+  114  touch chewbacca.txt
+  115  ..
+  116  mv luke_skywalker millenium_falcon
+  117  mv luke_skywalker.txt millenium_falcon
+  118  mv obi_wan.txt millenium_falcon
+  119  mv princess_leia.txt millenium_falcon
+  120  cd millenium_falcon
+  121  ls
+  122  ..
+  123  mv millenium_falcon death_star
+  124  mv death_star millenium_falcon
+  125  mv ~/rebellion/millenium_falcon death_star
+  126  ls
+  127  mv ~/star_wars\rebellion\millenium_falcon ~/star_wars\empire\death_star/
+  128  mv ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\rebellion ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star
+  129  mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star      
+  130  mv millenium_falcon ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star
+  131  ls
+  132  ..
+  133  ls
+  134  cd empire
+  135  ls
+  136  death_star
+  137  ls
+  138  ..
+  139  lsa
+  140  ls
+  141  ..
+  142  ls
+  143  ..
+  144  ls
+  145  ..
+  146  ls
+  147  ..
+  148  ls
+  149  ..
+  150  ls
+  151  ..
+  152  Users
+  153  ls
+  154  piqua
+  155  ls
+  156  empire
+  157  star_wars\empire\death_star
+  158  \sei\deliverables\Star_Wars\star_wars\empire
+  159  sei\deliverables\Star_Wars\star_wars\empire
+  160  cd sei
+  161  cd deliverables
+  162  cd Star_Wars
+  163  cd star_wars
+  164  empire
+  165  death_star
+  166  ls -l
+➜  death_star git:(master) ✗ mkdir millenium_falcon
+➜  death_star git:(master) ✗ mkdir millenium_falcon
+➜  death_star git:(master) ✗ touch chewbacca.txt
+➜  death_star git:(master) ✗ touch han_solo.txt
+➜  death_star git:(master) ✗ touch luke_skywalker.txt
+➜  death_star git:(master) ✗ touch obi_wan.txt
+➜  death_star git:(master) ✗ touch princess_leia.txt➜  death_star git:(master) ✗ echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+➜  death_star git:(master) ✗ cat darth_vader
+cat: darth_vader: No such file or directory
+➜  death_star git:(master) ✗ cat darth_vader.txt
+...heavy breathing...
+➜  death_star git:(master) ✗ cat princess_leia.txt
+Help me, Obi-Wan…You’re my only hope.
+➜  death_star git:(master) ✗ rm obi_wan.txt
+➜  death_star git:(master) ✗ mv chewbacca.txt millenium_falcon
+➜  death_star git:(master) ✗ mv han_solo.txt millenium_falcon
+➜  death_star git:(master) ✗ mv luke_skywalker.txt millenium_falcon
+➜  death_star git:(master) ✗ mv princess_leia.txt millenium_falcon
+➜  death_star git:(master) ✗ ..
+➜  empire git:(master) ✗ ls
+death_star  emperor_palpatine.txt
+➜  empire git:(master) ✗ mv millenium_falcon rebellion
+mv: cannot stat 'millenium_falcon': No such file or directory
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ..                                                          
+➜  empire git:(master) ✗ ..
+➜  star_wars git:(master) ✗ mv star_wars\empire\death_star\millenium_falcon star_wars\rebellion
+mv: cannot stat 'star_warsempiredeath_starmillenium_falcon': No such file or directory   
+➜  star_wars git:(master) ✗ mv /star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+mv: cannot stat '/star_wars/empire/death_star/millenium_falcon': No such file or directory
+➜  star_wars git:(master) ✗ ..
+➜  Star_Wars git:(master) ✗ mv /star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+mv: cannot stat '/star_wars/empire/death_star/millenium_falcon': No such file or directory
+➜  Star_Wars git:(master) ✗ mv /star_wars\empire\death_star\millenium_falcon /star_wars\rebellion
+mv: cannot stat '/star_warsempiredeath_starmillenium_falcon': No such file or directory  
+➜  Star_Wars git:(master) ✗ star_wars
+➜  star_wars git:(master) ✗ empire
+➜  empire git:(master) ✗ death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(master) ✗ mv millenium_falcon star_wars\rebellion
+➜  death_star git:(master) ✗ mvstar_wars\rebellion millenium_flacon
+zsh: command not found: mvstar_warsrebellion
+➜  death_star git:(master) ✗ mv star_wars\rebellion millenium_falcon
+➜  death_star git:(master) ✗ mv millenium_falcon /rebellion/
+mv: cannot create directory '/rebellion/': Permission denied
+➜  death_star git:(master) ✗ ..
+➜  empire git:(master) ✗ rm death_star
+rm: cannot remove 'death_star': Is a directory
+➜  empire git:(master) ✗ rm -rf death_star/              
+➜  empire git:(master) ✗ mkdir death_star
+➜  empire git:(master) ✗ mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/rebellion
+mv: cannot stat 'millenium_falcon': No such file or directory
+➜  empire git:(master) ✗ mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/rebellion
+mv: cannot stat 'millenium_falcon': No such file or directory
+➜  empire git:(master) ✗ mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empir
+e/death_star
+mv: cannot stat 'millenium_falcon': No such file or directory
+➜  empire git:(master) ✗ rebellion
+zsh: command not found: rebellion
+➜  empire git:(master) ✗ ..
+➜  star_wars git:(master) ✗ rebellion
+➜  rebellion git:(master) ✗ mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+mv: cannot move 'millenium_falcon' to '/home/piquant95/sei/deliverables/Star_Wars/star_wars/empire/death_star': No such file or directory
+➜  rebellion git:(master) ✗ mv millenium_falcon ~/piqua/sei/deliverables/Star_Wars/star_wars/empire/death_star
+mv: cannot move 'millenium_falcon' to '/home/piquant95/piqua/sei/deliverables/Star_Wars/star_wars/empire/death_star': No such file or directory
+➜  rebellion git:(master) ✗ history | tail -n 250
+    1  echo $SHELL
+    2  $SHELL --version
+    3  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    4  sudo add-apt-repository ppa:git-core/ppa
+    5  sudo apt-get update
+    6  sudo apt-get install git
+    7  git config --global user.name Piquant95
+    8  git config --global user.name "Piquant95"
+    9  git config --global user.email "piquant95@yahoo.com"
+   10  git config --global credential.helper "/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+   11  git config --global user.name
+   12  git config global user.email
+   13  git config --global user.email piquant95@yahoo.com
+   14  git config --global user.email "piquant95@yahoo.com"
+   15  git config global user.email
+   16  git config --global user.email "piquant95@yahoo.com"
+   17  git config global user.email
+   18  $ git config --global user.email piquant95@yahoo.com
+   19  $ git config --global user.email "piquant95@yahoo.com"
+   20  git config --global user.name
+   21  git config --global user.name "piquant95"
+   22  git config --global user.email "piquant95@yahoo.com"
+   23  git config --list
+   24  git config global user.email
+   25  git config --global user.email
+   26  git config --global init.defaultBranch main
+   27  git config --global core.editor "code --wait"
+   28  git config --global pull.rebase false
+   29  touch ~/.gitignore_global
+   30  git config --global core.excludesfile ~/.gitignore_global
+   31  code ~/.gitignore_global
+   32  git config --global user.name
+   33  git config global user.email
+   34  git config --global user.email
+   35  git config --global init.defaultBranch main
+   36  git config --global core.editor "code --wait"
+   37  git config --global pull.rebase false
+   38  touch ~/.gitignore_global
+   39  git config --global core.excludesfile ~/.gitignore_global
+   40  code ~/.gitignore_global
+   41  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0     
+   42  gh auth login
+   43  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0     
+   44  gh auth login
+   45  sudo apt install gh
+   46  gh auth login
+   47  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash   
+   48  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   49  nvm --version
+   50  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash   
+   51  nvm --version
+   52  npm --version
+   53  nvm install node
+   54  npm install node
+   55  nvm --version
+   56  code ~/.zshrc
+   57  nvm --version
+   58  npm --version
+   59  node --version
+   60  cat << EOF >> ~/.zshrc\n\n\nexport NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion\nEOF
+   61  node -v
+   62  brew install node
+   63  nvm install node
+   64  npm install node
+   65  nvm --version
+   66  npm --version
+   67  npm i -g nodemon
+   68  cd star_wars
+   69  touch star_wars/empire/emperor_palpatine.txt
+   70  ls
+   71  touch emperor_palpatine
+   72  touch emperor_palpatine.txt
+   73  ..cd
+   74  .cd
+   75  ..
+   76  cd empire
+   77  cd star_wars
+   78  cd empire
+   79  touch emperor_palpatine
+   80  touch death_star
+   81  touch emperor_palpatine.txt
+   82  mv ~/Star_Wars/star_wars/empire/darth_vader.txt ~/Star_Wars/star_wars/empire/death_star/
+   83  mv ~/darth_vader.txt ~/death_star/
+   84  ls
+   85  mv ~/STAR_WARS/star_wars/empire/darth_vader.txt ~/STAR_WARS/star_wars/empire/death_star/
+   86  ls
+   87  mv darth_vader.txt death_star
+   88  cd death-star
+   89  cd death_star
+   90  ls
+   91  cd death_star
+   92  mkdir death_star
+   93  touch darth_vader.txt
+   94  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+   95  echo "...heavy breathing..." >> darth_vader
+   96  cat darth_vader
+   97  mv darth_vader.txt
+   98  mv darth_vader darth_vader.txt
+   99  ls
+  100  cat darth_vader.txt
+  101  mv darth_vader death_star
+  102  mv darth_vader.txt death_star
+  103  ..
+  104  cd rebellion
+  105  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope."
+  106  touch princess_leia.txt
+  107  echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  108  cat princess_leia.txt
+  109  touch obi_wan.txt
+  110  touch luke_skywalker.txt
+  111  mkdir millenium_falcon
+  112  cd millenium_falcon
+  113  touch han_solo.txt
+  114  touch chewbacca.txt
+  115  ..
+  116  mv luke_skywalker millenium_falcon
+  117  mv luke_skywalker.txt millenium_falcon
+  118  mv obi_wan.txt millenium_falcon
+  119  mv princess_leia.txt millenium_falcon
+  120  cd millenium_falcon
+  121  ls
+  122  ..
+  123  mv millenium_falcon death_star
+  124  mv death_star millenium_falcon
+  125  mv ~/rebellion/millenium_falcon death_star
+  126  ls
+  127  mv ~/star_wars\rebellion\millenium_falcon ~/star_wars\empire\death_star/
+  128  mv ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\rebellion ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star
+  129  mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star      
+  130  mv millenium_falcon ~/C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star
+  131  ls
+  132  ..
+  133  ls
+  134  cd empire
+  135  ls
+  136  death_star
+  137  ls
+  138  ..
+  139  lsa
+  140  ls
+  141  ..
+  142  ls
+  143  ..
+  144  ls
+  145  ..
+  146  ls
+  147  ..
+  148  ls
+  149  ..
+  150  ls
+  151  ..
+  152  Users
+  153  ls
+  154  piqua
+  155  ls
+  156  empire
+  157  star_wars\empire\death_star
+  158  \sei\deliverables\Star_Wars\star_wars\empire
+  159  sei\deliverables\Star_Wars\star_wars\empire
+  160  cd sei
+  161  cd deliverables
+  162  cd Star_Wars
+  163  cd star_wars
+  164  empire
+  165  death_star
+  166  ls -l
+  167  ls -l /C:\Users\piqua\sei\deliverables\Star_Wars\star_wars\empire\death_star      
+  168  history | tail -n 250
+  169  mkdir millenium_falcon
+  170  touch chewbacca.txt
+  171  touch han_solo.txt
+  172  touch luke_skywalker.txt
+  173  touch obi_wan.txt
+  174  touch princess_leia.txt
+  175  echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  176  cat darth_vader
+  177  cat darth_vader.txt
+  178  cat princess_leia.txt
+  179  rm obi_wan.txt
+  180  mv chewbacca.txt millenium_falcon
+  181  mv han_solo.txt millenium_falcon
+  182  mv luke_skywalker.txt millenium_falcon
+  183  mv princess_leia.txt millenium_falcon
+  184  ..
+  185  ls
+  186  mv millenium_falcon rebellion
+  187  death_star
+  188  ..
+  189  mv star_wars\empire\death_star\millenium_falcon star_wars\rebellion
+  190  mv /star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  191  ..
+  192  mv /star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  193  mv /star_wars\empire\death_star\millenium_falcon /star_wars\rebellion
+  194  star_wars
+  195  empire
+  196  death_star
+  197  ls
+  198  mv millenium_falcon star_wars\rebellion
+  199  mvstar_wars\rebellion millenium_flacon
+  200  mv star_wars\rebellion millenium_falcon
+  201  mv millenium_falcon /rebellion/
+  202  ..
+  203  rm death_star
+  204  rm -rf death_star/
+  205  mkdir death_star
+  206  mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/rebellion
+  207  mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star      
+  208  rebellion
+  209  ..
+  210  rebellion
+  211  mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star      
+  212  mv millenium_falcon ~/piqua/sei/deliverables/Star_Wars/star_wars/empire/death_star
+➜  rebellion git:(master) ✗
