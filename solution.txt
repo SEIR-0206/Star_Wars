@@ -1,0 +1,667 @@
+➜  deliverables git:(master) ✗ ls
+Star_Wars
+➜  deliverables git:(master) ✗ cd ..
+➜  sei git:(master) ✗ rm  -rf .git
+➜  sei cd deliverables/Star_Wars 
+➜  Star_Wars git:(master) ✗ git status 
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   act1.sh
+        modified:   act2.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  Star_Wars git:(master) ✗ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+➜  Star_Wars git:(master) ✗ git add .
+➜  Star_Wars git:(master) ✗ git commit -m "finish my homework"
+[master 31aa61c] finish my homework
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+➜  Star_Wars git:(master) git push origin master
+remote: Permission to SEIR-0206/Star_Wars.git denied to davidxv15.
+fatal: unable to access 'https://github.com/SEIR-0206/Star_Wars.git/': The requested URL returned error: 403
+➜  Star_Wars git:(master) git remote -v
+origin  https://github.com/SEIR-0206/Star_Wars.git (fetch)
+origin  https://github.com/SEIR-0206/Star_Wars.git (push)
+upstream        https://github.com/SEI-NYC-1114/Star_Wars.git (fetch)
+upstream        https://github.com/SEI-NYC-1114/Star_Wars.git (push)
+➜  Star_Wars git:(master) git remote remove origin
+➜  Star_Wars git:(master) git remote add origin https://github.com/davidxv15/Star_Wars.git
+➜  Star_Wars git:(master) git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+➜  Star_Wars git:(master) git push origin master
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.02 KiB | 520.00 KiB/s, done.
+Total 10 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/davidxv15/Star_Wars.git
+   c44df58..31aa61c  master -> master
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      notes.txt    solution.txt star_wars
+➜  Star_Wars git:(master) ✗ cd act2.sh
+cd: not a directory: act2.sh
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      notes.txt    solution.txt star_wars
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      notes.txt    solution.txt star_wars
+➜  Star_Wars git:(master) ✗ cd star_wars 
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >>
+zsh: parse error near `\n'
+➜  rebellion git:(master) ✗ touch princess_leia.txt && echo >"Help me, Obi-Wan…You’re my only hope." >>
+zsh: parse error near `\n'
+➜  rebellion git:(master) ✗ touch princess_leia.txt && echo.>"Help me, Obi-Wan…You’re my only hope." >>
+zsh: parse error near `\n'
+➜  rebellion git:(master) ✗ touch princess_leia.txt && echo.>"Help me, Obi-Wan…You’re my only hope.">>
+zsh: parse error near `\n'
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ cd millenium_falcon             
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv ~/star_wars/rebellion/luke_skywalker.txt ~/star_wars/millenium_falcon
+mv: rename /Users/david/star_wars/rebellion/luke_skywalker.txt to /Users/david/star_wars/millenium_falcon: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon
+mv: rename /Users/david/Star_Wars/star_wars/rebellion/luke_skywalker.txt to /Users/david/Star_Wars/star_wars/millenium_falcon: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+mv: rename /Users/david/Star_Wars/star_wars/rebellion/luke_skywalker.txt to /Users/david/Star_Wars/star_wars/millenium_falcon/: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+mv: rename luke_skywalker.txt to /Users/david/Star_Wars/star_wars/millenium_falcon/: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ cd rebellion
+cd: no such file or directory: rebellion
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ cd rebellion
+cd: no such file or directory: rebellion
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗  ..
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ mv luke_skywalker millenium_falcon 
+mv: rename luke_skywalker to millenium_falcon/luke_skywalker: No such file or directory
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ mv ~/luke_skywalker.txt ~/millenium_falcon
+mv: rename /Users/david/luke_skywalker.txt to /Users/david/millenium_falcon: No such file or directory
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ mv ~/luke_skywalker.txt ~/millenium_falcon
+mv: rename /Users/david/luke_skywalker.txt to /Users/david/millenium_falcon: No such file or directory
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ ls             
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ mv ~/~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+mv: rename /Users/david/~/Star_Wars/star_wars/rebellion/luke_skywalker.txt to /Users/david/Star_Wars/star_wars/millenium_falcon/: No such file or directory
+➜  rebellion git:(master) ✗ ~/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+zsh: no such file or directory: /Users/david/star_wars/rebellion/luke_skywalker.txt
+➜  rebellion git:(master) ✗ ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ cd millenium_falcon
+cd: no such file or directory: millenium_falcon
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ cd millenium_falcon
+cd: no such file or directory: millenium_falcon
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ cd rebellion
+cd: no such file or directory: rebellion
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ empire
+zsh: command not found: empire
+➜  rebellion git:(master) ✗ 
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ cd empire
+cd: no such file or directory: empire
+➜  rebellion git:(master) ✗ 
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗  ..
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd
+➜  ~ ls
+Applications           GA-Blog                Pictures               index.html
+Desktop                Library                Public                 ls
+Documents              Movies                 data_types_deliverable sei
+Downloads              Music                  drawers                style.css
+➜  ~ sei
+➜  sei cd sei
+cd: no such file or directory: sei
+➜  sei 
+➜  sei ls
+code-alongs  deliverables fundamentals labs         projects     repos        sandbox
+➜  sei cd deliverables 
+➜  deliverables ls
+Star_Wars
+➜  deliverables cd Star_Wars 
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      notes.txt    solution.txt star_wars
+➜  Star_Wars git:(master) ✗ cd star_wars 
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd rebellion 
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ mv ~/millenium_falcon* ~/death_star
+zsh: no matches found: /Users/david/millenium_falcon*
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗ ls
+➜  rebellion git:(master) ✗  ..
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star 
+➜  death_star git:(master) ✗ ls
+millenium_falcon
+➜  death_star git:(master) ✗ ls
+millenium_falcon
+➜  death_star git:(master) ✗ cd millenium_falcon 
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/millenium_falcon* ~/death_star
+zsh: no matches found: /Users/david/millenium_falcon*
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv *~/millenium_falcon* ~/death_star
+zsh: no matches found: *~/millenium_falcon*
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv *~/millenium_falcon ~/death_star 
+zsh: no matches found: *~/millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv *.txt ~/death_star
+mv: /Users/david/death_star is not a directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/rebellion ~/death_star
+mv: rename /Users/david/rebellion to /Users/david/death_star: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv */rebellion ~/death_star
+zsh: no matches found: */rebellion
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv *.txt ~/death_star
+mv: /Users/david/death_star is not a directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv */millenium_falcon ~/death_star
+zsh: no matches found: */millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/chewbacca ~/death_star
+mv: rename /Users/david/chewbacca to /Users/david/death_star: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv millenium_falcon death_star
+mv: rename millenium_falcon to death_star: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv millenium_falcon ~/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon
+mv: rename millenium_falcon to /Users/david/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/millenium_falcon/
+mv: /Users/david/Star_Wars/star_wars/millenium_falcon/ is not a directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ 
+➜  millenium_falcon git:(master) ✗ mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/rebellion/death_star/
+mv: /Users/david/Star_Wars/star_wars/rebellion/death_star/ is not a directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/empire/death_star/
+mv: /Users/david/Star_Wars/star_wars/empire/death_star/ is not a directory
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/empire/death_star/
+mv: /Users/david/Star_Wars/star_wars/empire/death_star/ is not a directory
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt han_solo.txt
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/
+mv: /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt: No such file or directory
+mv: obi_wan.txt: No such file or directory
+mv: princess_leia.txt: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+➜  millenium_falcon git:(master) ✗ ls
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/luke_skywalker.txt obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+mv: rename obi_wan.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/obi_wan.txt: No such file or directory
+mv: rename princess_leia.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+mv: rename han_solo.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/han_solo.txt: No such file or directory
+mv: rename chewbacca.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/chewbacca.txt: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+luke_skywalker.txt
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/luke_skywalker.txt obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+mv: /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/luke_skywalker.txt: No such file or directory
+mv: rename obi_wan.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/obi_wan.txt: No such file or directory
+mv: rename princess_leia.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+mv: rename han_solo.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/han_solo.txt: No such file or directory
+mv: rename chewbacca.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/chewbacca.txt: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+luke_skywalker.txt
+➜  millenium_falcon git:(master) ✗ v ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+zsh: command not found: v
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+mv: rename princess_leia.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/princess_leia.txt: No such file or directory
+mv: rename han_solo.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/han_solo.txt: No such file or directory
+mv: rename chewbacca.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/chewbacca.txt: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+mv: rename han_solo.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/han_solo.txt: No such file or directory
+mv: rename chewbacca.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/chewbacca.txt: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+mv: rename chewbacca.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/chewbacca.txt: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv millenium_falcon rebellion
+mv: rename millenium_falcon to rebellion: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ .
+.: not enough arguments
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗  .
+.: not enough arguments
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗  ..
+➜  death_star git:(master) ✗ ls
+millenium_falcon
+➜  death_star git:(master) ✗ mv millenium_falcon rebellion 
+➜  death_star git:(master) ✗ ls
+rebellion
+➜  death_star git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗ cd death_star
+cd: no such file or directory: death_star
+➜  rebellion git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  rebellion git:(master) ✗  ..
+➜  death_star git:(master) ✗ ls
+rebellion
+➜  death_star git:(master) ✗ mv rebellion millenium_falcon
+➜  death_star git:(master) ✗ ls
+millenium_falcon
+➜  death_star git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon ~/mv ~/sei/deliverables/Star_Wars/star_wars/rebellion
+mv: rename /Users/david/mv to /Users/david/sei/deliverables/Star_Wars/star_wars/rebellion/mv: No such file or directory
+➜  millenium_falcon git:(master) ✗ ls 
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git commit -m "finish homework"
+[master bdd3f2f] finish homework
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ rename star_wars/empire/{ => death_star}/emperor_palpatine.txt (100%)
+ create mode 100644 star_wars/rebellion/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/han_solo.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/obi_wan.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/princess_leia.txt
+➜  star_wars git:(master) ✗ git push Star_Wars/star_wars/
+fatal: 'Star_Wars/star_wars/' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+➜  star_wars git:(master) ✗ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act2.sh
+        modified:   ../act3.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git commit -m "introduce empire threats 3"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act2.sh
+        modified:   ../act3.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  star_wars git:(master) ✗ git push Star_Wars/star_wars/
+fatal: 'Star_Wars/star_wars/' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+➜  star_wars git:(master) ✗ git push Star_Wars/star_wars/
+fatal: 'Star_Wars/star_wars/' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+➜  star_wars git:(master) ✗ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act2.sh
+        modified:   ../act3.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+darth_vader.txt death_star
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+emperor_palpatine.txt
+➜  death_star git:(master) ✗ mv death_star empire
+mv: rename death_star to empire: No such file or directory
+➜  death_star git:(master) ✗ ls
+emperor_palpatine.txt
+➜  death_star git:(master) ✗ ls
+emperor_palpatine.txt
+➜  death_star git:(master) ✗ mv sei/deliverables/Star_Wars/star_wars/empire/death_star/emperor_pal
+patine.txt ~/sei/deliverables/Star_Wars/star_wars/empire
+mv: rename sei/deliverables/Star_Wars/star_wars/empire/death_star/emperor_palpatine.txt to /Users/david/sei/deliverables/Star_Wars/star_wars/empire/emperor_palpatine.txt: No such file or directory
+➜  death_star git:(master) ✗ ls
+emperor_palpatine.txt
+➜  death_star git:(master) ✗ mv sei/deliverables/Star_Wars/star_wars/empire/death_star/ ~/sei/deliverables/Star_Wars/star_wars/empire 
+mv: sei/deliverables/Star_Wars/star_wars/empire/death_star/: No such file or directory
+➜  death_star git:(master) ✗ ls
+emperor_palpatine.txt
+➜  death_star git:(master) ✗ mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/ ~/sei/deliverables/Star_Wars/star_wars/empire  
+mv: /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/ and /Users/david/sei/deliverables/Star_Wars/star_wars/empire/death_star/ are identical
+➜  death_star git:(master) ✗ ls
+emperor_palpatine.txt
+➜  death_star git:(master) ✗ history 
+    1  ```bash\necho $SHELL\n```
+    2  git status
+    3  git add .
+    4  git commit -m "Solve addOne"
+    5  html-css-js 
+    6  html
+    7  .html
+    8  nodemon
+    9  node app.js
+   10  nodemon
+   11  node
+   12  ls
+   13  cd sei
+   14  ls
+   15  cd code-alongs
+   16  ls
+   17  cd ..
+   18  tree
+   19  ls
+   20  open index.html
+   21  ls
+   22  cd ..
+   23  rm  -rf .git
+   24  cd deliverables/Star_Wars
+   25  git status
+   26  git add.
+   27  git add .
+   28  git commit -m "finish my homework"
+   29  git push origin master
+   30  git remote -v
+   31  git remote remove origin
+   32  git remote add origin https://github.com/davidxv15/Star_Wars.git
+   33  git push
+   34  git push origin master
+   35* gh repo clone SEIR-0206/data_types_deliverable
+   36* index.html
+   37* ls
+   38* cd sei
+   39* ls
+   40* cd labs
+   41* index.html
+   42* ls
+   43* cd sei
+   44* ls
+   45* cd labs
+   46* ls
+   47* mkdir data_types_lab
+   48* ls
+   49* index.html
+   50* touch index.html main.js
+   51* ls
+   52* <script src='main.js' defer></script>
+   53* ls
+   54* git clone https://github.com/davidxv15/data_types_deliverable.git
+   55* cd 
+   56* cd labs
+   57* ls
+   58* cd sei
+   59* ls
+   60* cd labs
+   61* ls
+   62* cd data_types_deliverable
+   63* git remote -v
+   64* ls
+   65* code .
+   66  ls
+   67  cd act2.sh
+   68  ls
+   69  cd star_wars
+   70  ls
+   71  cd rebellion
+   72  ls
+   73  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >>
+   74  touch princess_leia.txt && echo >"Help me, Obi-Wan…You’re my only hope." >>
+   75  touch princess_leia.txt && echo.>"Help me, Obi-Wan…You’re my only hope." >>
+   76  touch princess_leia.txt && echo.>"Help me, Obi-Wan…You’re my only hope.">>
+   77  ls
+   78  cd millenium_falcon
+   79  ls
+   80  mv ~/star_wars/rebellion/luke_skywalker.txt ~/star_wars/millenium_falcon
+   81  ls
+   82  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon
+   83  ls
+   84  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+   85  ls
+   86  mv luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+   87  ls
+   88  cd rebellion
+   89  ls
+   90  cd rebellion
+   91  ls
+   92  mv luke_skywalker millenium_falcon
+   93  ls
+   94  mv ~/luke_skywalker.txt ~/millenium_falcon
+   95  ls
+   96  mv ~/luke_skywalker.txt ~/millenium_falcon
+   97  ls
+   98  mv ~/~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+   99  ~/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/millenium_falcon/
+  100  ls
+  101  cd millenium_falcon
+  102  ls
+  103  cd millenium_falcon
+  104  ls
+  105  cd rebellion
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd rebellion
+  110  ls
+  111  empire
+  112  ls
+  113  cd empire
+  114  ls
+  115  cd 
+  116  ls
+  117  sei
+  118  cd sei
+  119  ls
+  120  cd deliverables
+  121  ls
+  122  cd Star_Wars
+  123  ls
+  124  cd star_wars
+  125  ls
+  126  cd rebellion
+  127  ls
+  128  mv ~/millenium_falcon* ~/death_star
+  129  ls
+  130  cd empire
+  131  ls
+  132  cd death_star
+  133  ls
+  134  cd millenium_falcon
+  135  ls
+  136  mv ~/millenium_falcon* ~/death_star
+  137  ls
+  138  mv *~/millenium_falcon* ~/death_star
+  139  ls
+  140  mv *~/millenium_falcon ~/death_star
+  141  ls
+  142  mv *.txt ~/death_star
+  143  ls
+  144  mv ~/rebellion ~/death_star
+  145  ls
+  146  mv */rebellion ~/death_star
+  147  ls
+  148  mv *.txt ~/death_star
+  149  ls
+  150  mv */millenium_falcon ~/death_star
+  151  ls
+  152  mv ~/chewbacca ~/death_star
+  153  ls
+  154  mv millenium_falcon death_star
+  155  ls
+  156  mv millenium_falcon ~/sei/deliverables/Star_Wars/empire/death_star/millenium_falcon
+  157  ls
+  158  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/millenium_falcon/
+  159  ls
+  160  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/rebellion/death_star/
+  161  ls
+  162  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/empire/death_star/
+  163  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/Star_Wars/star_wars/empire/death_star/
+  164  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/
+  165  ls
+  166  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/
+  167  ls
+  168  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/luke_skywalker.txt obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  169  ls
+  170  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/luke_skywalker.txt obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  171  ls
+  172  v ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  173  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/obi_wan.txt princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  174  ls
+  175  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/princess_leia.txt han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  176  ls
+  177  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/han_solo.txt chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  178  ls
+  179  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/chewbacca.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  180  ls
+  181  mv millenium_falcon rebellion
+  182  ls
+  183  .
+  184  ls
+  185  mv millenium_falcon rebellion
+  186  ls
+  187  cd rebellion
+  188  ls
+  189  cd death_star
+  190  ls
+  191  mv rebellion millenium_falcon
+  192  ls
+  193  cd millenium_falcon
+  194  ls
+  195  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon ~/mv ~/sei/deliverables/Star_Wars/star_wars/rebellion
+  196  ls
+  197  cd ..
+  198  ls
+  199  git add
+  200  git add .
+  201  git commit -m "finish homework"
+  202  git push Star_Wars/star_wars/
+  203  git status
+  204  git add .
+  205  git commit -m "introduce empire threats 3"
+  206  git push Star_Wars/star_wars/
+  207  git status
+  208  ls
+  209  cd empire
+  210  ls
+  211  cd death_star
+  212  ls
+  213  mv death_star empire
+  214  ls
+  215  mv sei/deliverables/Star_Wars/star_wars/empire/death_star/emperor_palpatine.txt ~/sei/deliverables/Star_Wars/star_wars/empire
+  216  ls
+  217  mv sei/deliverables/Star_Wars/star_wars/empire/death_star/ ~/sei/deliverables/Star_Wars/star_wars/empire
+  218  ls
+  219  mv ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/ ~/sei/deliverables/Star_Wars/star_wars/empire 
+  220  ls
