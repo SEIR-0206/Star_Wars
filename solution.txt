@@ -1,0 +1,250 @@
+  196  ls
+  197  sandbox
+  198  ls
+  199  html-css-js
+  200  code .
+  201  node app.js
+  202  d
+  203  cd
+  204  sei
+  205  deliverables
+  206  ls
+  207  rmdir Star_Wars-1
+  208  rm rf Star_Wars-1
+  209  rmdir -r Star_Wars-1/
+  210  rm -rf Star_Wars-1/
+  211  ls
+  212  github_101
+  213  ls
+  214  git status
+  215  code .
+  216  git status
+  217  git add .
+  218  git commit -m "Add my answers to answers.txt"
+  219  git push origin master
+  220  cd
+  221  sei
+  222  deliverables
+  223  ls
+  224  Star_Wars
+  225  ls
+  226  tree
+  227  cd
+  228  sei
+  229  deliverables
+  230  ls
+  231  cd
+  232  sei
+  233  ls
+  234  labs
+  235  ls
+  236  mkdir press statement
+  237  ls
+  238  rm press statement
+  239  rmdir press statement
+  240  ls
+  241  mkdir pressstatement
+  242  pressstatement
+  243  touch index.html style.css press.js
+  244  code .
+  245  open index.html
+  246  index.html
+  247  ls
+  248  open ~/index.html
+  249  open ~/pressstatement/index.html
+  250  open ~/style
+  251  open style.css
+  252  open index.html
+  253  cd
+  254  sei
+  255  deliverables
+  256  ls
+  257  mkdir data_types
+  258  data_types
+  259  git clone https://github.com/TheForeverOptimist/data_types_deliverable.git
+  260  touch index.html main.js
+  261  ls
+  262  data_types_deliverable
+  263  touch index.html main.js
+  264  ls
+  265  code .
+  266  cd
+  267  sei
+  268  deliverables
+  269  ls
+  270  Star_Wars
+  271  ls
+  272  code .
+  273  ls
+  274  code Star_Wars
+  275  cd
+  276  sei
+  277  deliverables
+  278  data_type_deliverable
+  279  data_type
+  280  data_types
+  281  data_type_deliverable
+  282  data_types_deliverables
+  283  ls
+  284  data_types_deliverable
+  285  nodemon main.js
+  286  node.js
+  287  node main.js
+  288  nodemon -v
+  289  cd
+  290  nodemon-v
+  291  nodemon -v
+  292  node main.js
+  293  node
+  294  sei
+  295  deliverables
+  296  data_types
+  297  ls
+  298  data_types_deliverable
+  299  node main.js
+  300  cd
+  301  nodemon -v
+  302  cd
+  303  brew ls
+  304  node -v
+  305  npm -v
+  306  npm i -g nodemon
+  307  npm i nodemon
+  308  nodemon -v
+  309  npm install -g nodemon
+  310  cd users
+  311  pwd
+  312  sudo chown -R `whoami` ~/.npm
+  313  sudo chown -R `whoami` /usr/local/lib/node_modules
+  314  npm install -g nodemon
+  315  nodemon -v
+  316  sei
+  317  deliverables
+  318  data_types
+  319  data_types_deliverable
+  320  nodemon
+  321  nodemon main.js
+  322  sei
+  323  deliverables
+  324  data_types
+  325  data_types_deliverable
+  326  code .
+  327  cd
+  328  sei
+  329  deliverables
+  330  ls
+  331  Star_Wars
+  332  code .
+  333  rm dark_vader.txt
+  334  empire
+  335  ls
+  336  star_wars
+  337  empire
+  338  rm dark_vader.txt
+  339  touch emperor_palpatine.txt
+  340  mkdir death_star
+  341  mv darth_vader.txt death_star
+  342  tree
+  343  cd star_wars
+  344  cd
+  345  sei
+  346  deliverables
+  347  ls
+  348  Star_Wars
+  349  ls
+  350  star_wars
+  351  ls
+  352  tree
+  353  touch princess_leia.txt echo "Help me, Obi-Wan…You’re my only hope." > princess_leia.txt
+  354  ls
+  355  rm Help me, Obi-Wan…You’re my only hope.
+  356  rm echo
+  357  rm "Help me, Obi-Wan…You’re my only hope."
+  358  rebellion
+  359  echo "Help me, Obi-Wan...You're my only hope." > /princess_leia.txt
+  360  rm princess_leia.txt
+  361  ls
+  362  cd
+  363  sei
+  364  deliverables
+  365  Star_Wars
+  366  ls
+  367  star_wars
+  368  ls
+  369  rm princess_leia.txt
+  370  rebellion
+  371  touch princess_leia.txt
+  372  echo "Help me, Obi-Wan…You’re my only hope." > princessleia.txt
+  373  cat princess_leia.txt
+  374  cat princessleia.txt
+  375  rm princessleia.txt
+  376  echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  377  touch obi_wan.txt
+  378  touch luke_skywalker.txt
+  379  mkdir millenium_falcon
+  380  millenium_falcon
+  381  touch han_solo.txt chewbacca.txt
+  382  ls
+  383  mv ~/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcoon
+  384  mv ~/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  385  mv ~/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/rebellion/millenium_falcon
+  386  mv luke_skywalker.txt millenium_falcon
+  387  mv luke_skywalker.txt ~/millenium_falcon
+  388  ..
+  389  cd..
+  390  cd ..
+  391  rebellion
+  392  mv luke_skywalker.txt millenium_falcon
+  393  mv obi_wan.txt princess_leia.txt millenium_falcon
+  394  mv millenium_falcon ~/empire/death_star
+  395  mv millenium_falcon empire/death_star
+  396  mv millenium_falcon death_star
+  397  cd ..
+  398  ls
+  399  rebellion
+  400  ls
+  401  death_star
+  402  ls
+  403  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  404  mv death_star millenium_falcon
+  405  cd ..
+  406  mv death_star millenium_falcon
+  407  mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  408  ls
+  409  ..
+  410  empire
+  411  death_star
+  412  millenium_falcon
+  413  rm obi_wan.txt
+  414  mv chewbacca.txt hans_solo.txt luke_skywalker.txt princess_leia.txt death_star
+  415  mv chewbacca.txt hans_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  416  ..
+  417  mv chewbacca.txt hans_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  418  death_star
+  419  millenium_falcon
+  420  mv hans_solo.txt ..
+  421  ..
+  422  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/sei/deliverables/Star_W\nars/star_wars/empire/death_star/millenium_falcon
+  423  mv han_solo.txt death_star
+  424  death_star
+  425  millenium_falcon
+  426  mv han_solo.txt death_star
+  427  mv death_star hansolo.txt
+  428  mv hansolo.txt han_solo.txt
+  429  mv han_solo.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  430  ..
+  431  touch obi_wan.txt
+  432  ..
+  433  mv han_solo.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  434  death_star
+  435  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star
+  436  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ~/sei/deliverables/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  437  mv millenium_falcon ~/sei/deliverables/Star_Wars/star_wars/rebellion
+  438  ..
+  439  mv darth_vader.txt ~/sei/deliverables/Star_Wars/star_wars/empire
+  440  death_star
+  441  mv darth_vader.txt ~/sei/deliverables/Star_Wars/star_wars/empire
+  442  ..
+  443  rm death_star
+  444  rmdir death_star
+  445  history
