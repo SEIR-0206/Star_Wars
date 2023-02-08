@@ -2,7 +2,7 @@
 mkdir star_wars
 # 2. In the star_wars folder, create two new directories: empire and rebellion (This can be done in two commands, but how would you do it in one?)
 # cd star_wars
-# mkdir rebellion empire
+mkdir rebellion empire
 mkdir star_wars/rebellion star_wars/empire
 # 3. Inside the empire directory, create a file called darth_vader.txt 
 touch star_wars/empire/darth_vader.txt

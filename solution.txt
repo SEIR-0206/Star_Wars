@@ -1,0 +1,250 @@
+  632  tree
+  633  code .
+  634  desktop
+  635  ls
+  636  ga_seir
+  637  ls
+  638  deliverables
+  639  ls
+  640  starWarsDeliverable
+  641  star_wars
+  642  code .
+  643  code .
+  644  cd ..
+  645  code .
+  646  git add
+  647  git add star_wars/
+  648  git commit
+  649  Desktop
+  650  ga_seir
+  651  ls
+  652  deliverables
+  653  ls
+  654  starWarsDeliverable
+  655  star_wars
+  656  ls
+  657  cd rebellion
+  658  ls
+  659  echo "Help me, Obi wan... You're my only hope." > princess_leia.txt
+  660  touch obiWan.txt
+  661  touch lukeSkywalker.txt
+  662  mkdir milleniumFalcom
+  663  cd milleniumFalcom
+  664  touch hanSolo.txt chewBacca.txt
+  665  cd ..
+  666  ls
+  667  mv lukeSkywalker.txt obiWan.txt princess_leia.txt milleniumFalcom
+  668  mv milleniumFalcom ../death_star
+  669  mv milleniumFalcom ../empire/death_star
+  670  cd
+  671  ls
+  672  desktop
+  673  ga_seir
+  674  deliverables
+  675  ls
+  676  starWarsDeliverable
+  677  ls
+  678  star_wars
+  679  ls
+  680  death_star
+  681  cd death_star
+  682  lls
+  683  tree
+  684  cd ..
+  685  ls
+  686  tree
+  687  cd star_wars
+  688  cd empire
+  689  cd death_star
+  690  mv milleniumFalcom/ ../death_star
+  691  mv milleniumFalcom ../death_star
+  692  ls milleniumFalcom
+  693  mv milleniumFalcom ../death_star
+  694  milleniumFalcom
+  695  ls
+  696  rm obiWan.txt
+  697  cd ..
+  698  ls
+  699  cd ..
+  700  ls
+  701  rm death_star
+  702  rm -R death_star
+  703  cd ..
+  704  git init starWarsDeliverable
+  705  git add .
+  706  git add
+  707  git add starWarsDeliverable
+  708  Desk
+  709  desktop
+  710  ga_seir
+  711  deliverables
+  712  ls
+  713  starWarsDeliverable
+  714  git add .
+  715  git commit -m "Final deliverable 1"
+  716  git push origin master
+  717  git remote -v
+  718  ls
+  719  Desktop
+  720  git clone URL
+  721  cd into the folder
+  722  ls
+  723  ga_seir
+  724  deliverables
+  725  ls
+  726  starWarsDeliverable
+  727  tree
+  728  Desktop
+  729  tree
+  730  ls
+  731  ga_seir
+  732  deliverables
+  733  ls
+  734  starWarsDeliverable
+  735  ls
+  736  tre
+  737  tree
+  738  code .
+  739  star_wars
+  740  code .
+  741  code ..
+  742  cd ..
+  743  cd .. cd ..
+  744  cd .. ..
+  745  cd ....
+  746  Desktop-Main
+  747  cd ..
+  748  ga_seir
+  749  ls
+  750  code-alongs
+  751  mkdir html_css_js
+  752  cd html_css_js
+  753  touch index.html style.css app.js
+  754  tree
+  755  code .
+  756  open index.html
+  757  code .
+  758  open index.html
+  759  node app.js
+  760  desktop
+  761  ls
+  762  cd ga_seir
+  763  deliverables
+  764  ls
+  765  git clone https://github.com/imalicolak/Control_Flow_Homework.git
+  766  ls
+  767  Control_Flow_Homework
+  768  ls
+  769  code .
+  770  ls
+  771  lib
+  772  ls
+  773  Desktop
+  774  ga_seir
+  775  deliverables
+  776  starWarsDeliverable
+  777  git status
+  778  git push origin master
+  779  cd ..
+  780  cd starWarsDeliverable
+  781  tree
+  782  git status
+  783  code .
+  784  history
+  785  cd star_wars
+  786  cd empire
+  787  rm death_star
+  788  rm -v death_star
+  789  rm -i death_star
+  790  rm -i /Users/alicolakmbp21/Desktop/ga_seir/deliverables/starWarsDeliverable/star_wars/death_star
+  791  clear
+  792  ls
+  793  cd ..
+  794  rm -i /Users/alicolakmbp21/Desktop/ga_seir/deliverables/starWarsDeliverable/star_wars/death_star
+  795  rm -i death_star
+  796  clear
+  797  git add .
+  798  git commit
+  799  code .
+  800  cd ..
+  801  code .
+  802  git add .
+  803  git commit "Added the commands inside the files"
+  804  git commit - "Added the commands inside the files"
+  805  git commit -m "Added my answers to act1-3.sh"
+  806  git push origin main
+  807  git push origin master
+  808  git status
+  809  code .
+  810  Desktop
+  811  ga_seir
+  812  deliverables
+  813  starWarsDeliverable
+  814  mkdir star_wars
+  815  cd star_wars
+  816  mkdir empire rebellion
+  817  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  818  cd empire
+  819  echo "...heavy breathing..." >> darth_vader.txt
+  820  touch emperor_palpatine.txt
+  821  mkdir deathStar
+  822  mv darth_vader.txt deathStar
+  823  cd ..
+  824  touch princess.leila.txt && "Help Me, Obi-Wan... You're my only hope" >> princess_leila.txt
+  825  touch princess_leila.txt && "Help Me, Obi-Wan... You're my only hope" >> princess_leila.txt
+  826  cd star_wars/rebellion && touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  827  ls
+  828  touch princess_leila.txt && echo "help me, obi wan... youre my only hope"
+  829  rebellion
+  830  touch princess_leila.txt && echo "help me, obi wan... youre my only hope"
+  831  touch princess_leila.txt && echo "help me... you're my only hope" >> princess_leila.txt
+  832  rm -r princess_leila.txt
+  833  cd ..
+  834  touch princess_leila.txt && echo "help me... you're my only hope" >> princess_leila.txt
+  835  git add .
+  836  git commit -m "added text to princess_leila.txt"
+  837  cd rebellion
+  838  touch obi_wan.txt
+  839  touch luke_skywalker.txt
+  840  mkdir millenium_falcon
+  841  git add .
+  842  git commit -m "millenium falcon made baby"
+  843  cd millenium_falcon
+  844  touch han_solo.txt chewbacca.txt
+  845  mv obi_wan.txt luke_skywalker.txt millenium_falcon
+  846  cd ..
+  847  mv obi_wan.txt luke_skywalker.txt millenium_falcon
+  848  cd ..
+  849  mv princess_leila.txt rebellion
+  850  reb
+  851  rebellion
+  852  mv princess_leila.txt millenium_falcon
+  853  cd millenium_falcon
+  854  ls
+  855  cd ..
+  856  mv millenium_falcon empire/deathStar
+  857  mv /rebellion/millenium_falcon empire/deathStar
+  858  cd millenium_falcon
+  859  cd ..
+  860  mv rebellion/millenium_falcon empire/deathStar
+  861  git add .
+  862  git commit -m "millenium_falcon in the deathStar\n\n\n"
+  863  mv empire/deathStar/millenium_falcon/* empire/deathStar
+  864  ls
+  865  empire
+  866  ls
+  867  tree
+  868  rm obi_wan.txt
+  869  rm deathStar/obi_wan.txt
+  870  mv deathStar/princess_leila.txt, deathStar/chewbacca.txt, deathStar/han_solo.txt, deathStar/luke_skywalker.txt deathStar/millenium_falcon
+  871  cd deathStar
+  872  mv chewbacca.txt han_solo.txt princess_leila.txt
+  873  mv chewbacca.txt han_solo.txt princess_leila.txt millenium_falcon
+  874  cd ..
+  875  mv deathStar/millenium_falcon rebellion
+  876  cd ..
+  877  mv empire/deathStar/millenium_falcon rebellion
+  878  mv empire/deathStar/darth_vader.txt empire
+  879  rm -r empire/deathStar
+  880  git add .
+  881  git commit -m "Finished acts 1, 2, 3 (redid them all) so that my git isn't messy messy"
